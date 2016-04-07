@@ -1,0 +1,11 @@
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		DataCarrier dc = new DataCarrier(0,0,0,0,0, "ruben samst");
+		System.out.println(dc.getValue());
+		dc.setState(0, 0, 0, 0, 1);
+		dc.setValue("LOL222");
+		System.out.println(dc.getValue());
+	}
+}

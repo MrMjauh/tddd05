@@ -1,0 +1,17 @@
+// Main.java
+public class Main {
+	public static void main(String[] args) {
+		Storage<BankAccount> aStorage = new Storage<BankAccount>();
+		Storage<String> sStorage = new Storage<String>();
+		
+		Class baCls = BankAccount.class; // baCls compiler thinks it is an object
+		try {
+			BankAccount myAccount = (BankAccount)baCls.newInstance();
+			aStorage.setValue(myAccount);
+			// Deposit
+			myAccount.deposit(15);
+		} catch (InstantiationException e) {
+		} catch (IllegalAccessException e) {
+		}
+	}
+}

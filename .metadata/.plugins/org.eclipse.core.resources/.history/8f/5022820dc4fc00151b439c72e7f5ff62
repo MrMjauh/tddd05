@@ -1,0 +1,7 @@
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		DataCarrier dc = new DataCarrier(0,0,0,0,0, "ruben samst");
+	}
+}

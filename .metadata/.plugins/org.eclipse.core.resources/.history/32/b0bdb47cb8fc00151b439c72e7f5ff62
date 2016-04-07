@@ -1,0 +1,20 @@
+// BankAccount.java
+class BankAccount extends Account{
+	private float saldo;
+
+	public void deposit(float amount) {
+		this.saldo += amount;
+	}
+
+	public float showSaldo() {
+		return this.saldo;
+	}
+
+	BankAccount() {
+		saldo = 100;
+	}
+}
+
+class Account {
+	
+}

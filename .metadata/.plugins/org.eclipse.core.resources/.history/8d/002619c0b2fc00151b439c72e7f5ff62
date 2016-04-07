@@ -1,0 +1,12 @@
+// Storage.java
+class Storage<T> {
+	T x;
+
+	public void setValue(Object value) {
+		x = value;
+	}
+
+	public T getValue() {
+		return x;
+	}
+}

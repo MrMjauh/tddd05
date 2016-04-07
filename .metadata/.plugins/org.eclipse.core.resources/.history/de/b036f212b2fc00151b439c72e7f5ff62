@@ -1,0 +1,7 @@
+// Main.java
+public class Main {
+	public static void main(String[] args) {
+		Storage<BankAccount> aStorage = new Storage<BankAccount>();
+		Storage<String> sStorage = new Storage<String>()
+	}
+}
