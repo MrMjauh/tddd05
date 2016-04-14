@@ -145,7 +145,6 @@ public class DataCarrier {
 		
 		int methodId = this.getMethodId();
 		String methodName = "setV" + methodId;
-		System.out.println(methodName);
 		
 		try {
 			Method m = DataCarrier.class.getDeclaredMethod(methodName,String.class);
