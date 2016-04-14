@@ -2,6 +2,7 @@ Q1: What are the reasons of using generics here? What are the benefits? Discuss
 with your partner and elaborate.
 
 The benefits of using generics are that they are not depended on one instance, basically meaning that they are dynamic.
+By using generics you get stronger type checks at compile time, fixing compile time errors is easier than fixing runtime errors.
 
 Q2: Compile and analyze compiler output. Given that “everything is an Object” in
 Java what is the cause of the problem reported by the compiler, if any?
@@ -17,7 +18,7 @@ partner whether your diagnosis in Q2 was correct.
 
 We minimize our compilation errors to one since the myAccount variable is ininiated as a
 BankAccount class. The issue we get from this is that the Java compiler thinks that baCls is
-initiated as an object class type, so when we call baCls.newInstance() we return an object which is not what we want. We were right
+initiated as an object class type, so when we call baCls.newInstance() we return an object which is not what we want.
 
 Q4: What does the dynamic cast do here? Is it the compiler that performs the cast
 operation or the Java runtime environment (JVM)? Is this code safe*?
@@ -30,7 +31,8 @@ is not safe and we can cast baCl to whatever we like.
 Q5: Explain the compiler output? Are there errors? What is the reason? What does it
 say about the role of generics?
 
-There are no errors, since baCls is of class BankAccount. The baCls variable with the annotion <BankAccount> will in compile time convert the generic class object to an class  object with the tpye BankAccount.
+There are no errors, since baCls is of class BankAccount.The baCls variable with the annotion <BankAccount>
+will in compile time convert the generic class object to an class object with the tpye BankAccount.
 
 Q6: What is the run-time output? Reason why you get such an output and how does
 this relate to generics and their use with reflective instantiation of objects. 

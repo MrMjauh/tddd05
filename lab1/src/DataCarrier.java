@@ -23,7 +23,7 @@ public class DataCarrier {
 	private String[] stateValues; 
 
 	private int getMethodId() {
-		return this.getP0() + (int)Math.pow(this.getP1(),2) + (int)Math.pow(this.getP2(),3) + (int)Math.pow(this.getP4(),4);
+		return this.getP0() + (int)Math.pow(this.getP1() * 2, 1) + (int)Math.pow(this.getP2() * 2, 2) + (int)Math.pow(this.getP3() * 2, 3) + (int)Math.pow(this.getP4() * 2, 4);
 	}
 	
 	// Getters 
@@ -145,6 +145,7 @@ public class DataCarrier {
 		
 		int methodId = this.getMethodId();
 		String methodName = "setV" + methodId;
+		System.out.println(methodName);
 		
 		try {
 			Method m = DataCarrier.class.getDeclaredMethod(methodName,String.class);
