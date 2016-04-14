@@ -39,3 +39,7 @@ this relate to generics and their use with reflective instantiation of objects.
 
 The run-time output is "115.0" followed by "EQUAL". The reason to this is that generics are not
 reified at run-time. This means the information is not present at run-time. 
+
+Students									
+Ruben Das - rubda680								
+Rasmus Eriksson - raser891
