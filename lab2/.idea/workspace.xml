@@ -23,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainAnnotationExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainAnnotationExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainAnnotationExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="632">
@@ -31,6 +31,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answers.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/answers.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,8 +164,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,13 +201,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/web.admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager" selected="Application.MainAnnotationExample">
     <configuration default="false" name="MainAnnotationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -640,11 +651,12 @@
       <workItem from="1461916496419" duration="10492000" />
       <workItem from="1461931509059" duration="14000" />
       <workItem from="1462096017045" duration="137000" />
+      <workItem from="1462096216338" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10643000" />
+    <option name="totallyTimeSpent" value="10788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -700,6 +712,60 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MainAnnotationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ChefRamseyIsHere.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#1953#1954#0" expanded="true" />
+            <element signature="e#2001#2002#0" expanded="true" />
+            <element signature="e#2041#2042#0" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#2222#2223#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2310#2311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainAnnotationExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -882,6 +948,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+          <folding />
         </state>
       </provider>
     </entry>
