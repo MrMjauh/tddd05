@@ -14,7 +14,6 @@ import java.util.Map;
 /**
  * Created by rubendas on 2016-05-12.
  */
-@ComponentScan("com.client.config")
 public class ClientApplication {
 
     public static void main(String[] args) {
