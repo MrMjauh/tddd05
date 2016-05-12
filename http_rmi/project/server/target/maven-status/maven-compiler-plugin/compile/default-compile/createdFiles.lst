@@ -1,0 +1,6 @@
+com\server\impl\DrinkServiceImpl.class
+com\server\dao\IRecipeDao.class
+com\server\HttpServerApplication.class
+com\server\config\DevConfig.class
+com\server\dao\IDao.class
+com\server\dao\impl\DaoInMemory.class
